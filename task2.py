@@ -13,6 +13,8 @@ def properCaps(input):
     return
     str - proper capitalized string
     '''
+    mod = input.lower()
+    mod = mod.capitalize()
     return
 
 
@@ -22,3 +24,8 @@ if __name__ == "__main__":
 
     sentence = "I'm JuSt A LiTtle Black RainCLOUD!"
     assert properCaps(sentence) == "I'm just a little black raincloud!"
+
+       
+
+
+    
